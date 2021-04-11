@@ -1,7 +1,7 @@
 {
-  "name": "virtual-fishing-bot",
+  "name": "virtual-fisher-bot",
   "version": "0.0.3",
-  "description": "Automation tool for the Discord game; Virtual Fishing",
+  "description": "Automation tool for the Discord game; Virtual Fisher",
   "main": "app.js",
   "dependencies": {
     "discord.js-selfbot": "^12.0.2",
