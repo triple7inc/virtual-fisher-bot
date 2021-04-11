@@ -182,7 +182,7 @@ client.on("message",async msg=>{
 		if(msg.author.id==bot&&msg.channel==Channel){
 			const forme=msg.content.includes(Account.username);
 			if(msg.content.includes("User "+me.tag+" banned")){
-				console.log(me.tag+" has been temporary banned from Virtual Fishing!");
+				console.log(me.tag+" has been temporary banned from Virtual Fisher!");
 				process.exit(333);
 				return;
 			}
