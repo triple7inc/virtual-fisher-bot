@@ -1,0 +1,21 @@
+{
+  "name": "virtual-fishing-bot",
+  "version": "0.0.3",
+  "description": "Automation tool for the Discord game; Virtual Fishing",
+  "main": "app.js",
+  "dependencies": {
+    "discord.js-selfbot": "^12.0.2",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2",
+    "set-interval-async": "^1.0.34"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "triple7inc",
+  "license": "ISC"
+}
