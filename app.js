@@ -49,21 +49,6 @@ function ocr(url,callback)
 		callback(R.ParsedResults[0].ParsedText.replace("\r\n",""));
 	})
 }
-/*
-function ocr(url,callback)
-{
-	///console.log("ocr: "+url);
-	request.get(url,function(err,res,buffer){
-		if(typeof buffer!=="object"){
-			callback(null);
-			return;
-		}
-		tesseract.recognize(buffer,tesseract_config)
-		.then(text=>{callback(text)})
-		.catch(error=>{///console.log(error.message)})
-	})
-}
-*/
 async function sendAsync(msg,chn=null,min=2700,max=4200){return(send(msg,chn,min,max));}
 function send(msg,chn=null,min=2700,max=4200)
 {
