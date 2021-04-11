@@ -3,7 +3,6 @@ function ranint(t,o){return t=Math.ceil(t),o=Math.floor(o),Math.floor(Math.rando
 const {setIntervalAsync}=require("set-interval-async/dynamic");
 const request=require("request").defaults({encoding:null});
 const {clearIntervalAsync}=require("set-interval-async");
-///const tesseract=require("node-tesseract-ocr");
 const Discord=require("discord.js-selfbot");
 const rootocrapi="84aeee189a88957";
 const bot="574652751745777665";
@@ -13,13 +12,6 @@ var Running=false;
 var Channel=null;
 var timer=null;
 var me=null;
-const tesseract_config={
-  oem:1,
-  psm:3,
-  lang:"eng",
-  binary:"tesseract.exe",
-  tessedit_char_whitelist:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-}
 var System={
 	xp:0,
 	loot:{},
