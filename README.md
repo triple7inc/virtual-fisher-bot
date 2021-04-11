@@ -1,5 +1,5 @@
-# virtual-fishing-bot
-Automation tool for the Discord game; Virtual Fishing
+# virtual-fisher-bot
+Automation tool for the Discord game; Virtual Fisher
 
 ## Commands
 
